@@ -34,5 +34,15 @@ def using_uniq(haircuts)
   new_array = haircuts.uniq 
 end
 
-def using_flatten()
+def using_flatten(instruments)
+  flat_array = instruments.flatten 
+end 
+
+def using_delete(instructors, Steven)
+  no_offense_steven = instructors.delete(Steven)
+end
+
+def using_delete_at(famous_robots, 2)
+  deleted_robot = famous_robots.delete(2)
+  
 
